@@ -10,20 +10,18 @@ img:hover {
   filter: grayscale(0%);
 }
 
-.mere_knap {
-  /* background-color: rgb(202, 10, 157); */
-  color: #0c0c0c;
+.knap {
+  background-color: rgb(168, 168, 167);
   font-family: "Times New Roman", Times, serif;
 }
 
-#mere_knap a {
+.knap a {
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #0c0c0c;
-  /* background-color: rgb(170, 202, 231); */
+  color: #fdf7f7;
 }
 
 h1 {
@@ -108,7 +106,7 @@ h3 {
   position: absolute;
   background-color: #ffc2e7;
   z-index: -2;
-  top: 165rem;
+  top: 162.5rem;
   display: block;
 }
 
@@ -264,7 +262,7 @@ h3 {
     position: absolute;
     background-color: #ffc2e7;
     z-index: -2;
-    top: 104rem;
+    top: 102rem;
     display: block;
     left: 50rem;
   }
