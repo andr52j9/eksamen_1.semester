@@ -11,6 +11,24 @@ img:hover {
 }
 
 .knap {
+  display: flex;
+  justify-content: left;
+}
+
+.button {
+  background-color: rgb(251, 211, 255);
+  font-family: "Times New Roman", Times, serif;
+
+  text-align: center;
+  padding: 1%;
+}
+
+.button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* .knap {
   background-color: rgb(168, 168, 167);
   font-family: "Times New Roman", Times, serif;
 }
@@ -22,7 +40,7 @@ img:hover {
   font-style: normal;
   font-size: 1rem;
   color: #fdf7f7;
-}
+} */
 
 h1 {
   font-family: "Times New Roman", Times, serif;
@@ -74,10 +92,10 @@ h3 {
 }
 
 .stribe1 {
-  height: 160px;
+  height: 220px;
   width: 26rem;
   position: absolute;
-  background-color: #b3d7db;
+  background-color: #d6ebf5;
   z-index: -2;
   top: 47rem;
   display: block;
@@ -101,12 +119,12 @@ h3 {
 }
 
 .stribe2 {
-  height: 390px;
+  height: 450px;
   width: 26rem;
   position: absolute;
   background-color: #ffc2e7;
   z-index: -2;
-  top: 162.5rem;
+  top: 175rem;
   display: block;
 }
 
@@ -153,7 +171,7 @@ h3 {
   }
 
   .stribe1 {
-    height: 150px;
+    height: 160px;
     width: 38rem;
     position: absolute;
     background-color: #d6ebf5;
@@ -262,7 +280,7 @@ h3 {
     position: absolute;
     background-color: #ffc2e7;
     z-index: -2;
-    top: 102rem;
+    top: 106rem;
     display: block;
     left: 50rem;
   }
