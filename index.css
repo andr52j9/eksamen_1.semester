@@ -1,13 +1,12 @@
-header {
-  position: absolute;
-}
-
 img {
   filter: grayscale(100%);
 }
 
 img:hover {
   filter: grayscale(0%);
+}
+header {
+  position: absolute;
 }
 
 .knap {
@@ -16,7 +15,7 @@ img:hover {
 }
 
 .button {
-  background-color: rgb(251, 211, 255);
+  /* background-color: rgb(251, 211, 255); */
   font-family: "Times New Roman", Times, serif;
 
   text-align: center;
@@ -92,12 +91,12 @@ h3 {
 }
 
 .stribe1 {
-  height: 220px;
-  width: 26rem;
+  height: 190px;
+  width: 32rem;
   position: absolute;
   background-color: #d6ebf5;
   z-index: -2;
-  top: 47rem;
+  top: 53rem;
   display: block;
 }
 
@@ -119,12 +118,12 @@ h3 {
 }
 
 .stribe2 {
-  height: 450px;
-  width: 26rem;
+  height: 370px;
+  width: 35rem;
   position: absolute;
   background-color: #ffc2e7;
   z-index: -2;
-  top: 175rem;
+  top: 198rem;
   display: block;
 }
 
