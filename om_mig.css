@@ -1,0 +1,95 @@
+main {
+  margin: 10%;
+  margin-top: 4%;
+}
+
+img {
+  object-fit: cover;
+  height: 85%;
+  width: 90%;
+}
+
+#stribe {
+  height: 550px;
+  width: 22rem;
+  position: absolute;
+  background-color: #d6ebf5;
+  z-index: -2;
+  left: 2rem;
+  top: 4rem;
+  display: block;
+}
+
+@media (min-width: 800px) {
+  p {
+    padding: 2%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  #first_section {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #first_section .tekst {
+    grid-column: 3/4;
+    margin: 1rem;
+  }
+
+  #first_section .billede {
+    grid-column: 1/2;
+  }
+
+  #first_section img {
+    width: 57%;
+    margin-left: 15%;
+  }
+
+  #second_section {
+    margin-top: 2%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #second_section li {
+    margin: 2%;
+  }
+
+  .boks1 {
+    grid-column: 1/2;
+  }
+
+  .boks2 {
+    grid-column: 2/3;
+  }
+
+  #stribe {
+    height: 400px;
+    width: 65rem;
+    position: absolute;
+    background-color: #d6ebf5;
+    z-index: -2;
+    left: 25rem;
+    top: 20.5rem;
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  #first_section {
+    margin: 10%;
+  }
+
+  li {
+    margin: 5%;
+  }
+  h3 {
+    margin-top: 2%;
+  }
+}

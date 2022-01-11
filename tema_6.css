@@ -1,0 +1,36 @@
+@media (min-width: 800px) {
+  #first_section {
+    text-align: center;
+  }
+
+  #second_section {
+    padding: 2%10%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255, 204, 252);
+    margin: 3%;
+  }
+
+  #thrid_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 3%;
+    gap: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  #first_section {
+    text-align: center;
+  }
+  img {
+    margin: 5%;
+  }
+
+  #second_section {
+    background-color: rgb(255, 204, 252);
+    margin: 5%;
+  }
+}
