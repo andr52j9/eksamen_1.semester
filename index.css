@@ -64,7 +64,7 @@ h3 {
   width: 100%;
   height: 100vh;
   object-fit: cover;
-  background-image: url(/billeder/splash.webp);
+  background-image: url(billeder/splash.webp);
   text-align: center;
   display: grid;
   /* grid-template-columns: repeat(4, 1fr); */
