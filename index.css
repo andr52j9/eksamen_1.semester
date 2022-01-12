@@ -137,6 +137,11 @@ h3 {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
   #first_section {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url(billeder/splash.webp);
+
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
